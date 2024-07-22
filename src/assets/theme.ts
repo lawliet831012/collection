@@ -15,13 +15,17 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: '#F19672',
+      main: '#5b5f62',
     },
     secondary: {
-      main: '#FFEFE8',
+      main: '#f5f9f2',
     },
     background: {
-      default: '#FFE0D3',
+      default: '#fcf9f7',
+    },
+    text: {
+      primary: '#313030',
+      secondary: '#5d5f5c',
     },
   },
   components: {
