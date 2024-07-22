@@ -1,3 +1,31 @@
 {
-  "title": "Louis Wu front-end collection"
+  "title": "front-end collection",
+  "lang": "EN",
+  "switchLang": "Switch to English",
+  "noNeedRoSwitch": "Your current language is English",
+
+  "intro": {
+    "title": "Abuot Me",
+    "content": "I am passionate about learning and trying new things, and I love discussing technical issues with my peers. I believe coding is like cooking. As long as you master the core concepts, you don't always have to follow a recipe to make delicious dishes.",
+    "location": "Taipei, Taiwan"
+  },
+
+  "works": {
+    "title": "Works",
+    "content": "Here are some of my works. Click on the image to view the details."
+  },
+
+  "cryptoApi": {
+    "title": "Crypto.com API",
+    "content": "A simple top 10 cryptocurrency tracker. Used to display high-frequency changing data.",
+    "techStack": "Tech Stack: React, Redux, Typescript, react-financial-charts",
+    "link": "View Project"
+  },
+
+  "ibind": {
+    "title": "iBind (Under Construction - Personal Unpublished Project)",
+    "content": "A simple and user-friendly electronic contact book. It provides a quick and intuitive solution for digitized communication in early education and care, allowing parents to conveniently track their child's learning and growth.",
+    "description": "A project that I am working on with my business partner",
+    "techStack": "Tech Stack: React, React Native NextJs, Typescript, MUI, React Native Elements"
+  }
 }

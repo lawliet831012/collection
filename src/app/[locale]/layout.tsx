@@ -2,7 +2,7 @@
 import { ReactNode } from 'react';
 import i18nConfig from '@/i18nConfig';
 import type { Metadata } from 'next';
-import ClientProviders from './ClientProviders';
+
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -35,7 +35,7 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <ClientProviders>{children}</ClientProviders>
+            {children}
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
@@ -44,7 +44,9 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
-  title: '作品集',
-  description: 'Louis 的作品集',
-  icons: '/favicon.ico',
+  title: 'Collection',
+  description: 'Louis Wu front-end collection',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };

@@ -1,3 +1,31 @@
 {
-  "title": "Louis Wu 前端作品集"
+  "title": "前端作品集",
+  "lang": "中文",
+  "switchLang": "切换至中文",
+  "noNeedRoSwitch": "目前語言已是中文",
+
+  "intro": {
+    "title": "關於我",
+    "content": "我熱衷於學習和嘗試新事物，並且喜歡與同事討論技術問題。我認為編程就像烹飪，只要掌握了核心概念，就不需要總是按照食譜來做出美味的菜餚。",
+    "location": "台灣台北"
+  },
+
+  "works": {
+    "title": "作品集",
+    "content": "這裡是我的一些作品。點擊圖片查看詳細信息。"
+  },
+
+  "cryptoApi": {
+    "title": "Crypto.com API",
+    "content": "一個簡單的加密貨幣最佳10檔。用以呈現高頻變更數據。",
+    "techStack": "技術棧：React, Redux, Typescript, react-financial-charts",
+    "link": "查看項目"
+  },
+
+  "ibind": {
+    "title": "iBind (建置中個人非公開項目)",
+    "content": "一個簡單易用的電子聯絡簿。可以快速直覺地解決幼教及照護的數位化溝通，讓家長能更加方便的追蹤小孩的學習及成長狀況。",
+    "description": "我個人與創業夥伴正在進行的項目",
+    "techStack": "技術棧：React, React Native NextJs, Typescript, MUI, React Native Elements"
+  }
 }
