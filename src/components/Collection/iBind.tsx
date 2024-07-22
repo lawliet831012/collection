@@ -32,20 +32,19 @@ const Ibind: React.FC = () => {
       </Grow>
 
       <Grow in={show}>
-        <Paper sx={styles.img} elevation={2}>
-          <Image
-            src={'/applogin.gif'}
-            alt="Crypto Api"
-            width={300}
-            height={630}
-          />
-        </Paper>
-      </Grow>
-
-      <Grow in={show}>
-        <Paper sx={styles.img} elevation={2}>
-          <Image src={'/app.gif'} alt="Crypto Api" width={300} height={630} />
-        </Paper>
+        <Box display={'flex'}>
+          <Paper sx={styles.img} elevation={2}>
+            <Image
+              src={'/applogin.gif'}
+              alt="Crypto Api"
+              width={300}
+              height={630}
+            />
+          </Paper>
+          <Paper sx={styles.img} elevation={2}>
+            <Image src={'/app.gif'} alt="Crypto Api" width={300} height={630} />
+          </Paper>
+        </Box>
       </Grow>
 
       <Fade in={show}>
@@ -53,18 +52,7 @@ const Ibind: React.FC = () => {
           {t('ibind.techStack')}
         </Typography>
       </Fade>
-      <Fade in={show}>
-        <Typography variant="body1" component="p">
-          Demo: &nbsp;
-          <Link href="https://crypto-com-api.vercel.app/">
-            {t('ibind.link')}
-          </Link>
-          &nbsp;|&nbsp;
-          <Link href="https://github.com/lawliet831012/Crypto.com_api">
-            Git
-          </Link>
-        </Typography>
-      </Fade>
+
       {/* Add your MUI components and logic here */}
     </Box>
   );
@@ -79,8 +67,9 @@ const styles: Style = {
     justifyContent: 'center',
     alignItems: 'flex-start',
     height: '100%',
+    mb: 4,
   },
   img: {
-    my: 4,
+    my: 2,
   },
 };

@@ -60,7 +60,9 @@ const styles: Style = {
     justifyContent: 'center',
     alignItems: 'center',
     width: 200,
-    p: 1,
+
+    px: 1,
+    py: 4,
   },
   section: {
     marginBottom: 1,

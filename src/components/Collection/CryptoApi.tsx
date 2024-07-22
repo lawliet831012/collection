@@ -64,6 +64,7 @@ const styles: Style = {
     justifyContent: 'center',
     alignItems: 'flex-start',
     height: '100%',
+    mb: 4,
   },
   img: {
     my: 4,

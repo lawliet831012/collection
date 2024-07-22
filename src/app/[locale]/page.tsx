@@ -3,7 +3,7 @@ import { type JSX } from 'react';
 import type { Style } from '@/assets/theme';
 import ClientProviders from '../../components/ClientProviders';
 import initTranslations from '../i18n';
-import { Container, Box, Typography } from '@mui/material';
+import { Container, Box, Typography, Link } from '@mui/material';
 import LocaleSwitch from '../../components/LocaleSwitch';
 import { Profile } from '../../components/SideProfile';
 import { CryptoApi, Ibind } from '../../components/Collection';
@@ -43,6 +43,11 @@ async function IndexPage({
             <Box sx={styles.content}>
               <CryptoApi />
               <Ibind />
+
+              <Typography variant="h6">
+                {t('more')}&nbsp;
+                <Link href="https://github.com/lawliet831012">GitHub</Link>
+              </Typography>
             </Box>
           </Container>
         </Box>
@@ -65,6 +70,7 @@ const styles: Style = {
     flex: 1,
     haxHeight: '100vh',
     overflow: 'auto',
+    py: 2,
   },
   side: {
     width: 200,

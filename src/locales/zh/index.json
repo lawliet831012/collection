@@ -27,5 +27,7 @@
     "content": "一個簡單易用的電子聯絡簿。可以快速直覺地解決幼教及照護的數位化溝通，讓家長能更加方便的追蹤小孩的學習及成長狀況。",
     "description": "我個人與創業夥伴正在進行的項目",
     "techStack": "技術棧：React, React Native NextJs, Typescript, MUI, React Native Elements"
-  }
+  },
+
+  "more": "更多小項目在"
 }
